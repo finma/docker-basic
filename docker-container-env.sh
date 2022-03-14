@@ -1,0 +1,2 @@
+# menambahkan environment variable saat membuat container
+docker container create --name mongodata --publish 27018:27017 --env MONGO_INITDB_ROOT_USERNAME=finma --env MONGO_INITDB_ROOT_PASSWORD=finma mongo:latest
